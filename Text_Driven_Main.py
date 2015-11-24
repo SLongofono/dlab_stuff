@@ -1,18 +1,18 @@
 #Description:       This is the "Main" file for the communicator module software
 #
 #Usage:             This file will be automatically called by a system script
-#		                at boot, though it can be called directly with no arguments
-#		                via the command line: python Main.py
+#		    at boot, though it can be called directly with no arguments
+#		    via the command line: python Main.py
 #
 #                   The following lines should be changed to reflect your local
-#		                environment:
+#		    environment:
 #       
 #                   Line 59 : Change this path to the path where your 
-#		                communicator module software will reside.
+#		    communicator module software will reside.
 #                   Line 219: Change this email address to the one used to set
-#		                up the SSMTP and Mpack utilities
+#		    up the SSMTP and Mpack utilities
 #                   Line 220: Change this to the password associated with the
-#		                RPi email account
+#		    RPi email account
 #
 # 
 #Last Modified By:  Stephen Longfono
