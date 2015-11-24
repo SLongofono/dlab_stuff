@@ -1,24 +1,24 @@
 #Description:	    	This is a sensor class for the DS18B20 temperature
-#   			          sensor from Dallas Semiconductor
+#   			sensor from Dallas Semiconductor
 #
-#Usage:		        	This class uses the sensor interface class to interact
-#			              with the main architecture.  This will be instatitated
-#	        		      by the setup class and passed back to Main, which will
-#			              use the inherited methods to initiate and end data
-#       			      collection threads associated with this sensor object.
+#Usage:		        This class uses the sensor interface class to interact
+#			with the main architecture.  This will be instatitated
+#	        	by the setup class and passed back to Main, which will
+#			use the inherited methods to initiate and end data
+#       		collection threads associated with this sensor object.
 #						
-#		        	      Calling getData() will kill any active threads and
-#			              begin a new one.  Eventually, this class will need to
-#		    	          be modified to accomodate this sensor's ability to
-#   			          stack many sensors on the same pin.
+#		        Calling getData() will kill any active threads and
+#			begin a new one.  Eventually, this class will need to
+#		    	be modified to accomodate this sensor's ability to
+#   			stack many sensors on the same pin.
 #
 #Last Modified By:	Stephen Longofono
-#			              Onofognol@ku.edu
-#			              11 AM | 07/13/2015
+#			Onofognol@ku.edu
+#			11 AM | 07/13/2015
 #
-#Created By:		    Stephen Longofono
-#			              Onofognol@ku.edu
-#			              11 AM | 06/22/2015
+#Created By:		Stephen Longofono
+#			Onofognol@ku.edu
+#			11 AM | 06/22/2015
 
 import TempSensorGPIO
 import threading
